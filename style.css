@@ -1,10 +1,14 @@
     
 body {
-    background-color:#F9E79F;
+    background-image: url("streifen.jpg");  
+    font-family: "Times New Roman", Times, serif;
 }
 
 h1     {
-    color:red; 
+    font-family: "Times New Roman", Times, serif; 
+    text-align:center; color:white; 
+    font-size: 80px;
+    line-height: 140%; ; 
 
 }
 
@@ -13,6 +17,38 @@ p    {
     color:purple; 
 }
 
+	
+nav  { height: 200%; width: 160px; float:central; text-align: center;}
 
+nav a {
+    display: block;
+    padding: 0.8em;
+    text-decoration: none; 
+    font-weight: bold;
+    border: 0.5px solid palevioletred;
+    border-radius: 30px;
+    box-shadow: 0 0px 0px white inset;
+    color:white; 
+    background-color: #2C3E50; 
+    transition: all .25s ease-in;	  
+  }
 
+nav li[aria-current] a {
+  background-color: firebrick; 
+  color:white;
+}
+  
+  nav a:focus,
+  nav a:hover,
+  nav li[aria-current] a:focus,
+  nav li[aria-current] a:hover {    
+    color: goldenrod; 
+    background-color: #DE3163;
+  }
+video  {padding-left: 30%;}
 
+  img {padding-left: 30%;}
+  
+  a  {color:white;}
+
+ 
