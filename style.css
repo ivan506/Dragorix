@@ -5,6 +5,7 @@ body {
 }
 
 h1     {
+    background-color: black;
     font-family: "Times New Roman", Times, serif; 
     text-align:center; color:white; 
     font-size: 80px;
@@ -52,5 +53,7 @@ video  {padding-left: 30%;}
   a  {color:white;}
 
   .ivan {color:green;}
+
+  iframe {padding-left: 30%}
 
  
