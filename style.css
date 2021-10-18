@@ -1,6 +1,6 @@
     
 body {
-    background-image: url("streifen.jpg"); width:   
+    background-image: url("KeXk6P.jpg");  
     font-family: "Times New Roman", Times, serif;
 }
 
@@ -56,4 +56,17 @@ video  {padding-left: 30%;}
 
   iframe {padding-left: 30%}
 
+ .parent {
+   background-color: blueviolet;
+   
+   margin: 20px;
+   border: 30px solid blue;
+   max-width: 200px;
+ }
+
+ ol li::marker {
+  color:white;
+  font-size: 1.2em;
+}
+li {color: white;}
  
