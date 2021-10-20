@@ -3,9 +3,38 @@ body {
     background-image: url("KeXk6P.jpg");  
     font-family: "Times New Roman", Times, serif;
 }
+h2 {
+    font-family: "Times New Roman", Times, serif; 
+    text-align:center; 
+    color:white; 
+    font-size: 80px;
+    line-height: 140%; 
+  animation: textwelle 3s;
+}
+
+@keyframes textwelle {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }  
+  70% {
+    transform: scale(1.25);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;	
+  }
+  0%   {background-color:#F781BE; left:0px; top:0px;}
+  25%  {background-color:#FE2E64; left:200px; top:0px;}
+  50%  {background-color:#FF00FF; left:200px; top:200px;}
+  75%  {background-color:#A901DB; left:0px; top:200px;}
+  15% {background-color:#8258FA; left:0px; top:0px;}
+}
 
 
-h1 {
+
+h1 a:hover {
     background-color: 0;
     font-family: "Times New Roman", Times, serif; 
     text-align:center; 
@@ -25,7 +54,7 @@ h1 {
   25%  {background-color:#FE2E64; left:200px; top:0px;}
   50%  {background-color:#FF00FF; left:200px; top:200px;}
   75%  {background-color:#A901DB; left:0px; top:200px;}
-  10% {background-color:#8258FA; left:0px; top:0px;}
+  15% {background-color:#8258FA; left:0px; top:0px;}
 }
 
 
@@ -65,7 +94,11 @@ video  {padding-left: 30%;}
 
   img {padding-left: 30%;}
   
-  a  {color:white;}
+  a  {
+     
+      color:white;
+      text-decoration: none;
+  }
 
   .ivan {color:green;}
 
