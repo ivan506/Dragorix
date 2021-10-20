@@ -4,18 +4,33 @@ body {
     font-family: "Times New Roman", Times, serif;
 }
 
-h1     {
-    background-color: black;
+
+h1 {
+    background-color: 0;
     font-family: "Times New Roman", Times, serif; 
-    text-align:center; color:white; 
+    text-align:center; 
+    
+    color:white; 
     font-size: 80px;
-    line-height: 140%; ; 
+    line-height: 140%; 
+    animation: moveh1 5s;
+    animation-fill-mode: forwards;
 
 }
 
+@keyframes moveh1 {
+  from {margin-top: 0px;}
+  to {margin-top: 200px;}
+   0%   {background-color:#F781BE; left:0px; top:0px;}
+  25%  {background-color:#FE2E64; left:200px; top:0px;}
+  50%  {background-color:#FF00FF; left:200px; top:200px;}
+  75%  {background-color:#A901DB; left:0px; top:200px;}
+  10% {background-color:#8258FA; left:0px; top:0px;}
+}
 
-p    {
-    color:purple; 
+
+b    {
+    color:white;
 }
 
 	
