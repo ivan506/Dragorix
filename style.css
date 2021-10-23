@@ -36,9 +36,9 @@ h2 {
 
 
 	
-header { height: 200%; width: 100%; float:central; text-align: center;}
+nav { height: 200%; width: 100%; float:central; text-align: center;}
 
-header a {
+nav a {
     display: block;
     padding: 0.8em;
     text-decoration: none; 
@@ -51,15 +51,15 @@ header a {
     transition: all .25s ease-in;	  
   }
 
-header li[aria-current] a {
+nav li[aria-current] a {
   background-color: wheat; 
   color:#3498DB ;
 }
   
-  header a:focus,
-  header a:hover,
-  header li[aria-current] a:focus,
-  header li[aria-current] a:hover {    
+  nav a:focus,
+  nav a:hover,
+  nav li[aria-current] a:focus,
+  nav li[aria-current] a:hover {    
     color: #3498DB ; 
     background-color: white;
   }
@@ -184,8 +184,41 @@ margin-top: 10%;
  line-height: 50px;
 }
 
+header {
+  height: 6%;
+  background-color:#273746 ;
+}
+
+footer {
+
+  height: 0%;
+  background-color:#273746 ;
 
 
+}
+
+img {
+
+  padding-left: 98%;
+  padding-top: 0.5%;
+  
+}
+
+.pic {
+
+  
+  margin-top: -2%;
+  padding-left: 1%;
+  color: white;
+  font-size: 250%;
+}
+
+
+
+.rezept {
+
+  padding-right: 65%;
+}
 
 
 
