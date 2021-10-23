@@ -1,6 +1,7 @@
     
 body {
-    background-image: url("KeXk6P.jpg");  
+   
+    background-color:	#000000; 
     font-family: "Times New Roman", Times, serif;
 }
 h2 {
@@ -9,7 +10,7 @@ h2 {
     color:white; 
     font-size: 80px;
     line-height: 140%; 
-  animation: textwelle 3s;
+  animation: textwelle 8s;
 }
 
 @keyframes textwelle {
@@ -25,70 +26,42 @@ h2 {
     transform: scale(1);
     opacity: 1;	
   }
-  0%   {background-color:#F781BE; left:0px; top:0px;}
-  25%  {background-color:#FE2E64; left:200px; top:0px;}
-  50%  {background-color:#FF00FF; left:200px; top:200px;}
-  75%  {background-color:#A901DB; left:0px; top:200px;}
-  15% {background-color:#8258FA; left:0px; top:0px;}
+ 
 }
 
 
 
-h1 a:hover {
-    background-color: 0;
-    font-family: "Times New Roman", Times, serif; 
-    text-align:center; 
-    
-    color:white; 
-    font-size: 80px;
-    line-height: 140%; 
-    animation: moveh1 5s;
-    animation-fill-mode: forwards;
-
-}
-
-@keyframes moveh1 {
-  from {margin-top: 0px;}
-  to {margin-top: 200px;}
-   0%   {background-color:#F781BE; left:0px; top:0px;}
-  25%  {background-color:#FE2E64; left:200px; top:0px;}
-  50%  {background-color:#FF00FF; left:200px; top:200px;}
-  75%  {background-color:#A901DB; left:0px; top:200px;}
-  15% {background-color:#8258FA; left:0px; top:0px;}
-}
 
 
-b    {
-    color:white;
-}
+
 
 	
-nav  { height: 200%; width: 160px; float:central; text-align: center;}
+header { height: 200%; width: 100%; float:central; text-align: center;}
 
-nav a {
+header a {
     display: block;
     padding: 0.8em;
     text-decoration: none; 
     font-weight: bold;
-    border: 0.5px solid palevioletred;
+    border: 0.5px solid white;
     border-radius: 30px;
     box-shadow: 0 0px 0px white inset;
     color:white; 
-    background-color: #2C3E50; 
+    background-color: #3498DB ; 
     transition: all .25s ease-in;	  
   }
 
-nav li[aria-current] a {
-  background-color: firebrick; 
-  color:white;
+header li[aria-current] a {
+  background-color: wheat; 
+  color:#3498DB ;
 }
   
-  nav a:focus,
-  nav a:hover,
-  nav li[aria-current] a:focus,
-  nav li[aria-current] a:hover {    
-    color: goldenrod; 
-    background-color: #DE3163;
+  header a:focus,
+  header a:hover,
+  header li[aria-current] a:focus,
+  header li[aria-current] a:hover {    
+    color: #3498DB ; 
+    background-color: white;
   }
 video  {padding-left: 30%;}
 
@@ -104,17 +77,163 @@ video  {padding-left: 30%;}
 
   iframe {padding-left: 30%}
 
- .parent {
-   background-color: blueviolet;
-   
-   margin: 20px;
-   border: 30px solid blue;
-   max-width: 200px;
- }
+ 
 
  ol li::marker {
   color:white;
   font-size: 1.2em;
 }
 li {color: white;}
- 
+
+
+.element {
+  padding-left: 30%;
+  height: 1000px;
+  width: 500px;
+  background-color: red;
+  animation: 
+    pulse 10s ease infinite alternate, 
+    nudge 5s linear infinite alternate;
+  border-radius: 100%;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    background-color:#3498DB ;
+  }
+  50% {
+    background-color: #2E86C1;
+  }
+
+  70% {
+    background-color: #AED6F1;
+  }
+}
+
+
+
+
+.box h2 a b  {
+   font-family: "Times New Roman", Times, serif;
+  font-size: 200%;
+  
+}
+
+footer .element2  {
+
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+a:hover  {
+  color:#D6EAF8  ;
+}
+
+b a:hover {
+  color:#AED6F1;
+}
+
+
+html, body {
+  width: 100%;
+  height:100%;
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 1000% 1000%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.box {
+ padding-left: 30%;
+ font-size: 500%;
+ line-height: 50px;
+}
+
+
+.train {
+
+  font-size: 400%;
+  width: 15%;
+  position:absolute;
+  right:65%;
+  bottom:12%
+  
+  
+}
+
+
+
+
+.train2 {
+
+  font-size: 70%;
+  right:70%;
+  bottom:5%
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.parent {
+  width: 100%;
+  height: 300px;
+  background-color: green;
+  display: flex;
+  flex-flow: row;
+  max-width: 100%;
+  justify-content: center;
+}
+.child {
+  min-width: 100px;
+  background: red;
+  width: 30%;
+  height: 100%;
+  margin: 0 20px;
+}
+body, p {
+  margin: 0px;
+}
+.child1 {
+  background-color: white;
+  background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.fotocommunity.com%2Fbregenzerwald-52973ea5-fd88-4ca3-b433-a14a97175315.jpg%3Fheight%3D1080&f=1&nofb=1");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+
