@@ -275,6 +275,16 @@ animation: textwelle 3s;
 }
 
 
+.text {
+
+  width: 600px;
+  height: 800px;
+  margin-top: 5%;
+  margin-left: 35%;
+  text-align: center;
+
+}
+
 
 
 
