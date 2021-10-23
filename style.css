@@ -86,38 +86,6 @@ video  {padding-left: 30%;}
 li {color: white;}
 
 
-.element {
-  padding-left: 30%;
-  height: 1000px;
-  width: 500px;
-  background-color: red;
-  animation: 
-    pulse 10s ease infinite alternate, 
-    nudge 5s linear infinite alternate;
-  border-radius: 100%;
-}
-
-@keyframes pulse {
-  0%, 100% {
-    background-color:#3498DB ;
-  }
-  50% {
-    background-color: #2E86C1;
-  }
-
-  70% {
-    background-color: #AED6F1;
-  }
-}
-
-
-
-
-.box h2 a b  {
-   font-family: "Times New Roman", Times, serif;
-  font-size: 200%;
-  
-}
 
 footer .element2  {
 
@@ -158,36 +126,65 @@ body {
     }
 }
 
-
-.box {
- padding-left: 30%;
- font-size: 500%;
- line-height: 50px;
+.content {
+margin-top: 10%;
 }
+
+.element {
+  margin-top: 7%;
+  margin-left: -10%;
+  height: 1000px;
+  width: 1000px;
+  background-color: red;
+  animation: 
+    pulse 10s ease infinite alternate, 
+    nudge 5s linear infinite alternate;
+  border-radius: 100%;
+  float:left;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    background-color:#3498DB ;
+  }
+  50% {
+    background-color: #2E86C1;
+  }
+
+  70% {
+    background-color: #AED6F1;
+  }
+}
+
 
 
 .train {
 
   font-size: 400%;
-  width: 15%;
-  position:absolute;
-  right:65%;
-  bottom:12%
-  
+  width: 20%;
+  padding-top: 38%;
+  padding-left: 35%; 
   
 }
-
-
 
 
 .train2 {
 
   font-size: 70%;
-  right:70%;
-  bottom:5%
-  
+
   
 }
+
+
+
+.box {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 100%; 
+ padding-left: 30%;
+ line-height: 50px;
+}
+
+
 
 
 
