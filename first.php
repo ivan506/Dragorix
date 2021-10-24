@@ -5,7 +5,7 @@ $passwort       = $_POST["Passwort"];
 
 if (Signin($benutzername, $passwort)) {
 
-    echo "<a href='website3.php'>seite</a>";
+    echo "<a href='chat.html'>seite</a>";
 } else {
     echo "Login fail!";
 }
