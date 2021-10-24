@@ -5,9 +5,9 @@ $passwort       = $_POST["Passwort"];
 
 if (Signin($benutzername, $passwort)) {
 
-    echo "<a href='chat.html'>seite</a>";
+    echo "<a href='chat.html'>chat</a>";
 } else {
-    echo "Login fail!";
+    echo "Login fail ";
 }
 
 
@@ -16,7 +16,7 @@ if (Signin($benutzername, $passwort)) {
 
 function Signin($benutzername, $passwort)
 {
-    include "webaccess.php";
+    include "webaccass.php";
     if ($benutzername == $toCompareName && $passwort == $toComparePW) {
         return 1;
     } else {

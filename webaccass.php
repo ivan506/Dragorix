@@ -1,4 +1,4 @@
 <?php
 
-$toCompareName     = "Ivan";
-$toComparePW       = "matija";
+    $toCompareName     = "ivan";
+    $toComparePW       = "matija";
