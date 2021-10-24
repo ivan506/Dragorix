@@ -43,25 +43,26 @@ nav a {
     padding: 0.8em;
     text-decoration: none; 
     font-weight: bold;
-    border: 0.5px solid white;
-    border-radius: 30px;
+    border: 0px solid white;
+    border-radius: 0px;
     box-shadow: 0 0px 0px white inset;
-    color:white; 
-    background-color: #3498DB ; 
+    color:black; 
+    background-color: 0 ; 
     transition: all .25s ease-in;	  
+  
   }
 
 nav li[aria-current] a {
   background-color: wheat; 
-  color:#3498DB ;
+  color:0 ;
 }
   
   nav a:focus,
   nav a:hover,
   nav li[aria-current] a:focus,
   nav li[aria-current] a:hover {    
-    color: #3498DB ; 
-    background-color: white;
+    color: 0 ; 
+    background-color: 0;
   }
 video  {padding-left: 30%;}
 
@@ -73,7 +74,7 @@ video  {padding-left: 30%;}
       text-decoration: none;
   }
 
-  .ivan {color:green;}
+  
 
   iframe {padding-left: 30%}
 
@@ -223,11 +224,11 @@ body, p {
 .button {
   padding-right: 70%;
   padding-top: 15%;
-  font-family: "Times New Roman", Times, serif; 
+  font-family: "Helvetica", Times, serif; 
   text-align:center; 
   color:white; 
-  font-size: 30px;
-  line-height: 100%; 
+  font-size: 40px;
+  line-height: 20%; 
 animation: textwelle 3s;
 }
 
@@ -248,32 +249,6 @@ animation: textwelle 3s;
 }
 
 
-.Kreis {
-  margin-top: 2%;
-  margin-left: 30%;
-  height: 1000px;
-  width: 1000px;
-  background-color: red;
-  animation: 
-    pul 10s ease infinite alternate, 
-    nudge 5s linear infinite alternate;
-  border-radius: 100%;
-  float:left;
-}
-
-@keyframes pul {
-  0%, 100% {
-    background-color:#3498DB ;
-  }
-  50% {
-    background-color: #2E86C1;
-  }
-
-  70% {
-    background-color: #AED6F1;
-  }
-}
-
 
 .text {
 
@@ -286,7 +261,142 @@ animation: textwelle 3s;
 }
 
 
+#log  {
+ 
+  height:500px;
+  width:450px; 
+  background-color:skyblue;
+  text-align:center;
+  margin-top: 15%;
+  margin-left: 40%;
+  color: #fff;
+  padding: 7px 0px 0px 10px;
+  border-radius: 20%;
+  
+}
 
 
+#log .ivan a {
+
+
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+
+}
+
+
+form  {
+
+  margin-top: 35%;
+  
+}
+
+
+
+
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: aqua;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color:#AED6F1 ;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+.navigation{
+
+  height:100%;
+  width:11%; 
+  background-color: #AED6F1 ;
+  text-align:center;
+  color: #fff;
+  padding: 7px 0px 0px 10px;
+  border-radius: 0%;
+  
+
+}
+
+
+
+.press {
+  padding-right: 15%;
+  margin-top: 15%;
+  font-family: "Helvetica", Times, serif; 
+  text-align:center; 
+  color:black; 
+  font-size: 15px;
+  line-height: 150%; 
+
+}
+
+.pass a {
+
+  font-size: 14px;
+  font-family: "Helvetica";
+  color: #000000;
+}
+
+
+ul, li {
+
+  list-style: none;
+}
 
 
